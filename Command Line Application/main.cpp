@@ -6,7 +6,8 @@
 //
 
 #include "loginandregistration.hpp"
-#include "userdatabase.hpp"
+//#include "userdatabase.hpp"
+#include "userProfile.hpp"
 #include <iostream>
 
 using namespace std;
@@ -14,7 +15,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
    
     loginandregistration commandline;
-    userDatabase db;
+    //userDatabase db;
     commandline.userPrompt();
     
     return 0;

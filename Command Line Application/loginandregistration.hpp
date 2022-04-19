@@ -9,15 +9,24 @@
 #define loginandregistration_hpp
 
 #include <stdio.h>
-#include "userdatabase.hpp"
+//#include "userdatabase.hpp"
+#include "userProfile.hpp"
 
 class loginandregistration
 {
 public:
     bool isLoggedIn();
+    //bool isLoggedIn(userDatabase& database);
+    
     void userPrompt();
+    //void userPrompt(userDatabase& database);
+    
     void registerUser();
+    //void registerUser(userDatabase& database);
+
     int logIn();
+    //int logIn(userDatabase& database);
+
 };
 
 #endif /* loginandregistration_hpp */
