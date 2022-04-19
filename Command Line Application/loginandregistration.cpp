@@ -67,6 +67,7 @@ void loginandregistration::registerUser()
     of.close();
     
     cout << "User registered" << endl;
+    loginandregistration::userPrompt();
     //main();
  }
 
